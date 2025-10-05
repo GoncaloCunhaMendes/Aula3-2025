@@ -26,7 +26,7 @@ typedef struct queue_elem_st queue_elem_t;
 typedef struct queue_elem_st {
     pcb_t *pcb;
     queue_elem_t *next;
-} queue_elem_t;
+    } queue_elem_t;
 
 // Define the queue structure
 // We define the head and the tail to make it easier to enqueue and dequeue
